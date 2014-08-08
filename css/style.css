@@ -5,6 +5,10 @@ html, body{
 	font-size: 1.1em;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .content{
 	width: 50%;
 	min-width: 850px;
@@ -37,24 +41,25 @@ html, body{
 .mail-data{
 	border: 1px solid gray;
 	border-radius: 5px;
-	width: 26%; 
+	width: 46%; 
 	height: 50px;
 	font-family: Arial;
 	font-size: 0.9em;
-	margin: 10px;
+	margin: 2%;
+    display: block;
+    float: left;
 	padding-left: 20px;
 }
 
 .msg{
-	width: 91.4%;
+	width: 96%;
 	padding-top: 20px;
 	height: 150px;
 }
 
 .btn{
-	width: 95%;
+	width: 96%;
 	border-radius: 5px;
-	margin: 10px;
 	height: 40px;
 	background: #646464;
 	color:white;
