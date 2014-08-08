@@ -18,7 +18,7 @@
 				<input class="mail-data" type="text" name="nome" placeholder="Nome Completo">
 				<input class="mail-data" type="mail" name="email" placeholder="Email">
                 <input class="mail-data" type="mail" name="dest" placeholder="Email de Destino">
-                <input class="mail-data" type="mail" name="dest" placeholder="Assunto">
+                <input class="mail-data" type="text" name="dest" placeholder="Assunto">
 				<textarea class="mail-data msg" placeholder="Seu content ninja aqui"></textarea>
 				<input class="btn" type="submit" value="Enviar">
 			</form>
